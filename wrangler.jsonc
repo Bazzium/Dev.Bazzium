@@ -2,6 +2,9 @@
   "name": "bazzium-dev",
   "main": "worker/index.ts",
   "compatibility_date": "2026-10-20",
+  "vars": {
+    "RESEND_FROM_EMAIL": "Bazzium Dev <dev@bazzium.com>"
+  },
   "assets": {
     "directory": "./dist/bazzium/browser",
     "binding": "ASSETS",
